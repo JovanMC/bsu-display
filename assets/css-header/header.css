@@ -1,0 +1,36 @@
+.bodyHeader{
+    background-color: rgb(7, 7, 7);
+    background-image: linear-gradient(to right, #052944, #0B395B, #16344B, #132F46, #071220, #060E1A);
+    transition: 2s ease all;
+    
+}
+.active{
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.transparentNavbar{
+    background-color: rgba(244, 244, 244, 0);
+    transition: background-color 1s ease 0s;
+}
+
+/* .textNavLinkTransparent:before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #cfcfcf;
+    transform-origin: right top;
+    transform: scale(0,1);
+    transition: color 0.1s, transform 0.2s ease-out;
+  }
+  .textNavLink:hover{
+    color: rgb(194, 194, 194);
+  }
+  .textNavLink:hover::before,
+  .textNavLink:focus::before{
+    transform-origin: left top;
+    transform: scale(1,1); */
+  /* } */

@@ -1,0 +1,23 @@
+.imgProduk{
+    width:160px; height: 290px;
+}
+
+.imgProdukBig{
+    width:170px; height: 300px;
+}
+
+.imgProdukModal{
+    width:150px; height: 250px;
+}
+
+@media(max-width:600px){
+    .imgProduk{
+         width:80px; height: 160px;
+    }
+    .imgProdukModal{
+        width:100px; height: 180px;
+    }
+    .imgProdukBig{
+        width:110px; height: 190px;
+    }
+}

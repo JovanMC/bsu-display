@@ -1,0 +1,55 @@
+.kotak {
+  top: 0;
+  left: 0;
+}
+
+.kotak img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.zoom-effect2:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+/* Kotak Judul Halaman */
+
+.kotakHeaderHalaman{
+  height: 50px;
+  margin-top: 5px;
+  background-color:#000535;
+  background-image: linear-gradient(to right, #C1C2C4, #A7A9AC, #B2B3B7, #8E8F92, #ADAFB1)
+
+}
+
+.kotakHeaderVisi{
+  background-color:#000535;
+  background-image: linear-gradient(to right, #052944, #334d64, #0b1b28, #334d64, #071220);
+  margin-top: 5px;
+  height: fit-content;
+}
+
+.kotakMotto{
+  width:100%;
+  display: inline-block;
+  background-color:#000535;
+  background-image: linear-gradient(to right, #052944, #334d64, #0b1b28, #334d64, #071220);
+}
+
+.kotakHr{
+  height: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color:#000535;
+  background-image: linear-gradient(to right, #C1C2C4, #A7A9AC, #B2B3B7, #8E8F92, #ADAFB1);
+}
+
+/* margin */
+.marginTopBottom20{
+  margin-top:20px; margin-bottom:20px;
+}

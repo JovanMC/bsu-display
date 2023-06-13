@@ -1,0 +1,206 @@
+.textWhite{
+    color: white;
+    text-decoration:none;
+    font-size: 12px;
+  }
+
+.textWhite .a:hover{
+  color: rgb(219, 219, 219);
+}
+  .block-23 ul {
+    padding: 0; }
+    .block-23 ul li, .block-23 ul li > a {
+      display: table;
+      line-height: 1.5;
+      margin-bottom: 15px; }
+    .block-23 ul li .icon, .block-23 ul li .text {
+      display: table-cell;
+      vertical-align: top; }
+    .block-23 ul li .icon {
+      width: 40px;
+      font-size: 18px;
+      padding-top: 2px; }
+
+.textNavLink{
+  color:inherit;
+  text-decoration: none;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  margin: 0 4px;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight:lighter;
+  font-size: small;
+  transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+  color: #ffffff;
+}
+
+.textNavLink:before{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #cfcfcf;
+  transform-origin: right top;
+  transform: scale(0,1);
+  transition: color 0.1s, transform 0.2s ease-out;
+}
+.textNavLink:hover{
+  color: rgb(194, 194, 194);
+}
+.textNavLink:hover::before,
+.textNavLink:focus::before{
+  transform-origin: left top;
+  transform: scale(1,1);
+}
+
+.textRegionalHeader{
+  color: #575757;
+  font-size: small;
+  font-weight:bolder;
+  text-align: left;
+  
+}
+
+.textRegionalKonten{
+  color: #575757;
+  font-size: x-small;
+  text-align: left;
+}
+
+.hrStyle{
+  color: #333333;
+  width: 100%;
+  align-items: center;
+ 
+}
+
+.textKontakKamiHeader{
+  color: white;
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+}
+
+.textKontakKamiKonten{
+  color: white;
+  font-size:small;
+  text-align: center;
+}
+
+.textVisiKonten{
+  color: white;
+  font-size:medium;
+  text-align: center;
+  line-height: 40px;
+  padding: 20px;
+}
+
+.textMisiKonten{
+  color: white;
+  font-size:small;
+  text-align: center;
+}
+
+.textKontakKamiHeaderForm{
+  color: white;
+  font-size:small;
+  text-align: center;
+  margin-bottom: 2px;
+  
+}
+
+.textKarirHeader{
+  color: rgb(0, 0, 0);
+  font-size:small;
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+.textKarirKonten{
+  color: rgb(62, 62, 62);
+  font-size:medium;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.textKarirKontenHeader{
+  color: rgb(251, 251, 251);
+  font-size:small;
+  text-align: center;
+  font-weight: bolder;
+}
+.textPerusahaanHeader{
+  color: rgb(62, 62, 62);
+  font-size:large;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+
+
+.fontKotakHeaderHalaman{
+   margin-left: 80px;color:white; line-height:50px; font-weight:500; font-size:x-large
+}
+
+.fontPerusahaanKonten{
+  text-align:left; color:rgb(0, 0, 0);  font-weight:bold; font-size:small; margin-top: 10px;
+}
+
+.fontPerusahaanKontenWhite{
+  text-align:left; color:rgb(255, 255, 255);  font-weight:bold; font-size:small; margin-top: 10px;
+}
+.fontMottoHeader{
+ color:white;  font-weight:500; font-size:small; margin: 20px; margin-left: 50px;
+ float: left;
+}
+
+
+.fontMottoContent{
+  color:white;  font-weight:500; font-size:small; margin: 20px; margin-right: 50px;
+  float: right;
+ }
+
+ .fontProdukKonten{
+  text-align:left; color:rgb(67, 67, 67);  font-weight:500; font-size:small; margin-top: 10px;
+}
+
+@media(max-width:600px){
+.fontKotakHeaderHalaman{
+   line-height:50px;  font-size:large;margin-left: 40px;
+}
+.textKarirHeader{
+  font-size:x-small;
+}
+.textKarirKonten{
+  font-size:small;
+}
+.textKarirKontenHeader{
+  font-size:x-small;
+}
+
+.textKontakKamiKonten{
+  font-size:x-small;
+}
+
+.fontMottoHeader{
+  margin-left: 30px;
+  
+ }
+ 
+ .fontMottoContent{
+    margin-right: 30px;
+  }
+
+  .textVisiKonten{
+   
+    font-size:small;
+  
+  }
+}

@@ -1,0 +1,239 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 105px; /* Location of the box */
+    padding-bottom: 70px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #000535;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+
+   /* Modal Content */
+   .modal-content-produk {
+    position: relative;
+    background-color: #f0f0f0;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  
+  
+  /* The Close Button */
+  .close {
+    right: 50%;
+    left: 50%;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: transparent;
+    border: transparent;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #a8a8a8;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /* Close produk */
+  
+  /* The Close Button */
+  .close-produk {
+    right: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: bold;
+    background-color: transparent;
+    border: transparent;
+  }
+  
+  .close-produk:hover,
+  .close-produk:focus {
+    color: #a8a8a8;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+  .modal-header {
+    padding: 1px 16px;
+    background-color: #000535;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  /* .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  } */
+
+  .form-inline {  
+    display: flex;
+  }
+
+  .btn-yellow{
+    background-color: #FFC107;
+    width: 120px;
+    color: whitesmoke;
+  }
+  .btn-brown{
+    background-color: #9F540F;
+    width: 120px;
+    color: whitesmoke;
+  }
+  .holder {
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    
+}
+
+.hrModalProdukStyle{
+  border: 1px solid rgb(0, 0, 0)
+ }
+
+/* Font modal produk */
+.fontHeaderModalProduk{
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+ }
+
+ .fontContentProduk{
+  color: rgb(0, 0, 0);
+  font-size: small;
+  text-align: left;
+ }
+/* end font */
+ .fontHeaderModal{
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+ }
+
+ .hrModalStyle{
+  border: 1px solid white
+ }
+
+ .fontHeaderConten{
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  text-align: center;
+ }
+
+ .fontHeaderContenLeft{
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  text-align: left;
+ }
+
+ .fontContent{
+  color: white;
+  font-size: small;
+  text-align: left;
+ }
+
+ .buttonModal{
+  font-size: small;
+  font-weight:400;
+  color: #ffffff;
+  width: 100px;
+  background-color: 117ca2;
+  background-image: linear-gradient(#89b8d5, #117ca2,#89b8d5);
+  border-radius: 5px;
+  margin-bottom: 25px;
+ }
+ .buttonModal:hover{
+  color: #e9e9e9;
+  width: 100px;
+  background-color: rgb(213, 213, 213);
+  background-image: linear-gradient(rgb(213, 213, 213), #117ca2,rgb(213, 213, 213));
+  border-radius: 5px;
+ }
+
+ @media(max-width:600px){
+  .fontHeaderModal{
+    font-size: small;
+  }
+  .fontHeaderConten{
+    font-size:xx-small;
+  }
+  .fontHeaderContenLeft{
+    font-size:xx-small;
+  }
+  .fontContent{
+    font-size:xx-small;
+  }
+  .fontHeaderContenLeft{
+    font-size: x-small;
+  }
+  .buttonModal{
+    font-size: x-small;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+   }
+   .buttonModal:hover{
+
+    width: 100%;
+ 
+   }
+
+   .fontContentProduk{
+    color: rgb(0, 0, 0);
+    font-size: x-small;
+    text-align: left;
+   }
+ }

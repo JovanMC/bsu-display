@@ -1,0 +1,28 @@
+.formInput{
+    width: 70%;
+    margin-bottom: 20px;
+    font-size: small;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+.formInputSecond{
+  border-radius: 10px;
+    width: 70%;
+    margin-bottom: 20px;
+    font-size: small;
+  }
+.formButton{
+    width: 30%;
+    background-color: white;
+    color: #000535;
+    font-weight: bold;
+    font-size: small;
+    border-radius: 5px;
+    height: 30px;
+    transition: 0.4s;
+}
+.formButton:hover{
+    background-color: #000b6d;
+    color: white;
+}
