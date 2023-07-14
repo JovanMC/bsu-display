@@ -1,7 +1,7 @@
 .textWhite{
     color: white;
     text-decoration:none;
-    font-size: 12px;
+    font-size:x-small;
   }
 
 .textWhite .a:hover{
@@ -93,7 +93,7 @@
 
 .textVisiKonten{
   color: white;
-  font-size:medium;
+  font-size:large;
   text-align: center;
   line-height: 40px;
   padding: 20px;
@@ -101,8 +101,8 @@
 
 .textMisiKonten{
   color: white;
-  font-size:small;
-  text-align: center;
+  font-size:large;
+  text-align: start;
 }
 
 .textKontakKamiHeaderForm{
@@ -150,21 +150,19 @@
 }
 
 .fontPerusahaanKonten{
-  text-align:left; color:rgb(0, 0, 0);  font-weight:bold; font-size:small; margin-top: 10px;
+  text-align:left; color:rgb(0, 0, 0);  font-weight:bold; font-size:large; margin-top: 10px;text-align: start;
 }
 
 .fontPerusahaanKontenWhite{
-  text-align:left; color:rgb(255, 255, 255);  font-weight:bold; font-size:small; margin-top: 10px;
+  text-align:left; color:rgb(255, 255, 255);  font-weight:bold; font-size:large; margin-top: 10px ;text-align: start
 }
 .fontMottoHeader{
- color:white;  font-weight:500; font-size:small; margin: 20px; margin-left: 50px;
- float: left;
+ color:white;  font-weight:500; font-size:large; margin: 20px; margin-left: 50px; float: left;
 }
 
 
 .fontMottoContent{
-  color:white;  font-weight:500; font-size:small; margin: 20px; margin-right: 50px;
-  float: right;
+  color:white;  font-weight:500; font-size:large; margin: 20px; margin-right: 50px; float: right;
  }
 
  .fontProdukKonten{
@@ -191,7 +189,6 @@
 
 .fontMottoHeader{
   margin-left: 30px;
-  
  }
  
  .fontMottoContent{
@@ -199,8 +196,13 @@
   }
 
   .textVisiKonten{
-   
     font-size:small;
+  }
+  .fontPerusahaanKonten{
+   font-size:small; 
+  }
   
+  .fontPerusahaanKontenWhite{
+  font-size:small;
   }
 }

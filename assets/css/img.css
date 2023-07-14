@@ -3,7 +3,7 @@
 }
 
 .imgProdukBig{
-    width:170px; height: 300px;
+    width:180px; height: 290px;
 }
 
 .imgProdukModal{
@@ -18,6 +18,6 @@
         width:100px; height: 180px;
     }
     .imgProdukBig{
-        width:110px; height: 190px;
+        width:100px; height: 160px;
     }
 }
